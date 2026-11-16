@@ -1,6 +1,11 @@
-<h1>Your coach says</h1>
+<div class="container py-5">
+  <div class="coach-card mx-auto">
+    <p class="text-muted small mb-1">You asked</p>
+    <p class="fs-5 mb-4">“<%= @question %>”</p>
 
-<p>You asked: <%= @question %></p>
-<p>Coach: <%= @answer %></p>
+    <p class="text-muted small mb-1">Your coach says</p>
+    <p class="coach-answer mb-4"><%= @answer %></p>
 
-<%= link_to "Ask another question", ask_path %>
+    <%= link_to "Ask another question", ask_path, class: "btn btn-outline-dark w-100" %>
+  </div>
+</div>

@@ -8,3 +8,21 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+body {
+  background: #f4f1ea;
+  min-height: 100vh;
+}
+
+.coach-card {
+  max-width: 480px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.coach-answer {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
